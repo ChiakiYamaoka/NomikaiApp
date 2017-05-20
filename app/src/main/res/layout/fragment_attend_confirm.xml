@@ -1,0 +1,40 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    android:layout_margin="6dp"
+    tools:context="com.example.chiakiyamaoka.nomikaiapp.AttendConfirmFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#baf3ff"
+            android:text="ステップ３：出欠確認"
+            android:textColor="#6a7070"
+            android:textSize="24dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="出席名簿の作成" />
+
+        <TextView
+            android:layout_below="@+id/restaurant_name"
+            android:id="@+id/restaurant_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1d5dff"
+            android:textSize="24dp"
+            android:text="http://~~~~~~~~~~~~~~~~~~"/>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
